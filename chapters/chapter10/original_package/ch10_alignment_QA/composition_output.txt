@@ -1,0 +1,2 @@
+Euler: 0.8
+Midpoint: 0.82

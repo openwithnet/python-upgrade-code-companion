@@ -1,0 +1,4 @@
+# Chapter 15 only: CPU autodifferentiation comparison.
+# CI supply is unpinned until clean hosted-run confirmation.
+torch>=2.3,<3
+jax>=0.4.30,<1

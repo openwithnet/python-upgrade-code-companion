@@ -1,0 +1,897 @@
+{
+  "status": "WORKING PUBLICATION CANDIDATE, NOT RELEASED",
+  "source_root": "/mnt/data/pyupgrade_v75_candidate",
+  "included_count": 147,
+  "excluded_count": 185,
+  "exclusions": [
+    [
+      "docs/SOURCE_ROLE_AND_RELEASE_GATE.csv",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/INTEGRATED_TEST_GATE_STATUS.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH05_FRESH_RUN.log",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH07_FRESH_RUN.log",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/FILE_MANIFEST.json",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/V75_INTEGRATION_QA.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/ALL_CHAPTER_TEST_RESULTS.json",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/MANUSCRIPT_RELEASE_BLOCKERS_PRIORITY.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/V75_RESUMABLE_QA.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/PY311_REPRODUCIBILITY_GATE.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/WORD_NOTEBOOK_SOURCE_AUDIT_20261023.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH06_FRESH_RUN.log",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH04_FRESH_RUN.log",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH10_FRESH_RUN.log",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/ORIGINAL_ARCHIVE_LICENSE_PROVENANCE_GATE.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/LOCAL_ENVIRONMENT_GATE_20261023.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH02_10_STANDARD_RUN.log",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/ALL_CHAPTER_TEST_STATE.json",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH02_10_TEST_RESULTS.csv",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH09_FRESH_RUN.log",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/RELEASE_GATE_DECISION_20261023.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/LICENSE_PROVENANCE_AUDIT_20261023.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/GITHUB_RELEASE_READINESS.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH17_MANUSCRIPT_CODE_FOCUSED_AUDIT.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH02_10_ORIGIN_MANIFEST.csv",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH02_FRESH_RUN.log",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/PUBLICATION_SCOPE_DECISION.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH08_FRESH_RUN.log",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH10_CANONICAL_CONTRACT_DECISION.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/PUBLICATION_SCOPE_MANIFEST.csv",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CROSS_CHAPTER_IMPORT_COLLISIONS.csv",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH03_FRESH_RUN.log",
+      "internal audit or mutable QA"
+    ],
+    [
+      "docs/CH16_MANUSCRIPT_CODE_FOCUSED_AUDIT.md",
+      "internal audit or mutable QA"
+    ],
+    [
+      ".pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      ".pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      ".pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "scripts/__pycache__/check_ch02_10.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "scripts/__pycache__/audit_import_collisions.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "scripts/__pycache__/check_all_chapters.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      ".pytest_cache/v/cache/nodeids",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/test_results_v47.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter12/QA_REPORT.md",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter12/FRESH_TEST_RESULT.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter12/QA_REPORT_v46.md",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter12/QA_REPORT_v47.md",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter12/QA_REPORT_v48.md",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter12/MANUSCRIPT_COVERAGE.csv",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter12/test_results.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter12/test_results_v46.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter16/QA_REPORT.md",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter16/FRESH_TEST_RESULT.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter16/test_results.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter15/QA_REPORT.md",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter15/FRESH_TEST_RESULT.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter15/test_results.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter13/QA_REPORT_v50.md",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter13/QA_REPORT.md",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter13/FRESH_TEST_RESULT.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter13/test_results_v50.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter13/test_results.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter17/QA_REPORT.md",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter17/FRESH_TEST_RESULT.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter14/QA_REPORT.md",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter14/FRESH_TEST_RESULT.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter14/.pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      "chapters/chapter14/.pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      "chapters/chapter14/.pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "chapters/chapter14/tests/__pycache__/test_ch14_advanced.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter14/tests/__pycache__/test_ch14_examples.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter14/.pytest_cache/v/cache/nodeids",
+      "cache"
+    ],
+    [
+      "chapters/chapter14/src/__pycache__/ch14_advanced.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter14/src/__pycache__/ch14_examples.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter07/original_package/__pycache__/test_b1_sequences.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter07/original_package/__pycache__/b1_sequences.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter07/original_package/.pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      "chapters/chapter07/original_package/.pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      "chapters/chapter07/original_package/.pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "chapters/chapter07/original_package/.pytest_cache/v/cache/nodeids",
+      "cache"
+    ],
+    [
+      "chapters/chapter17/.pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      "chapters/chapter17/.pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      "chapters/chapter17/.pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "chapters/chapter17/tests/__pycache__/test_core.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter17/.pytest_cache/v/cache/nodeids",
+      "cache"
+    ],
+    [
+      "chapters/chapter17/src/oscillator_lab/__pycache__/__main__.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter17/src/oscillator_lab/__pycache__/core.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter17/src/oscillator_lab/__pycache__/__init__.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter13/.pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      "chapters/chapter13/.pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      "chapters/chapter13/.pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "chapters/chapter13/tests/__pycache__/test_ch13_examples.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter13/tests/__pycache__/test_ch13_extended.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter13/.pytest_cache/v/cache/nodeids",
+      "cache"
+    ],
+    [
+      "chapters/chapter13/src/__pycache__/ch13_extended.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter13/src/__pycache__/ch13_examples.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/test_results.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/__pycache__/test_ch10_composition_example.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/__pycache__/ch10_composition_example.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/.pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/.pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/.pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/.pytest_cache/v/cache/lastfailed",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/.pytest_cache/v/cache/nodeids",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/__pycache__/c3_validation.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/__pycache__/c3_calibration.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/__pycache__/kinetics.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/__pycache__/test_c3_validation.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/__pycache__/test_ch10_composition_example.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/__pycache__/ch10_composition_example.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/__pycache__/test_c3_pytest.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/__pycache__/test_ch09_additional.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/__pycache__/test_ch10_pipeline.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/__pycache__/test_kinetics.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/__pycache__/ch10_pipeline.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter15/.pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      "chapters/chapter15/.pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      "chapters/chapter15/.pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "chapters/chapter15/tests/__pycache__/test_ch15_sensitivity.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter15/tests/__pycache__/test_ch15_core_concepts.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter15/.pytest_cache/v/cache/nodeids",
+      "cache"
+    ],
+    [
+      "chapters/chapter15/src/__pycache__/ch15_sensitivity.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter15/src/__pycache__/ch15_core_concepts.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter06/original_package/__pycache__/test_p1.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter06/original_package/__pycache__/p1_particle_trajectory.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter06/original_package/.pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      "chapters/chapter06/original_package/.pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      "chapters/chapter06/original_package/.pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "chapters/chapter06/original_package/.pytest_cache/v/cache/nodeids",
+      "cache"
+    ],
+    [
+      "chapters/chapter16/.pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      "chapters/chapter16/.pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      "chapters/chapter16/.pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "chapters/chapter16/tests/__pycache__/test_ch16_validation.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter16/tests/__pycache__/test_ch16_review_workflow.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter16/.pytest_cache/v/cache/nodeids",
+      "cache"
+    ],
+    [
+      "chapters/chapter16/src/__pycache__/ch16_validated_decay.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter16/src/__pycache__/ch16_review_workflow.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter16/src/__pycache__/ch16_initial_bug.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter11/__pycache__/kinetics.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter11/__pycache__/test_ch11_lab.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter11/__pycache__/ch11_lab.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter11/.pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      "chapters/chapter11/.pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      "chapters/chapter11/.pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "chapters/chapter11/.pytest_cache/v/cache/nodeids",
+      "cache"
+    ],
+    [
+      "chapters/chapter04/original_package/__pycache__/b1_dna_analysis.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter04/original_package/__pycache__/test_b1_dna_analysis.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter04/original_package/.pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      "chapters/chapter04/original_package/.pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      "chapters/chapter04/original_package/.pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "chapters/chapter04/original_package/.pytest_cache/v/cache/nodeids",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/.pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/.pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/.pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/tests/__pycache__/test_ch12_indexing_memory.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/tests/__pycache__/test_ch12_canonical_examples.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/tests/__pycache__/test_ch12_additional_manuscript_examples.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/tests/__pycache__/test_ch12_6_10.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/tests/__pycache__/test_ch12_remaining_examples.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/.pytest_cache/v/cache/nodeids",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/src/__pycache__/ch12_6_10_verified_examples.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/src/__pycache__/ch12_canonical_examples.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/src/__pycache__/ch12_remaining_examples.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/src/__pycache__/ch12_indexing_memory_examples.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter12/src/__pycache__/ch12_additional_manuscript_examples.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter08/original_package/Chapter_08/__pycache__/c3_calibration.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter08/original_package/Chapter_08/__pycache__/test_c3_calibration.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter08/original_package/Chapter_08/.pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      "chapters/chapter08/original_package/Chapter_08/.pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      "chapters/chapter08/original_package/Chapter_08/.pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "chapters/chapter08/original_package/Chapter_08/.pytest_cache/v/cache/nodeids",
+      "cache"
+    ],
+    [
+      "chapters/chapter09/original_package/__pycache__/c3_validation.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter09/original_package/__pycache__/c3_calibration.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter09/original_package/__pycache__/test_c3_validation.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter09/original_package/__pycache__/test_c3_pytest.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter09/original_package/__pycache__/test_ch09_additional.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter09/original_package/.pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      "chapters/chapter09/original_package/.pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      "chapters/chapter09/original_package/.pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "chapters/chapter09/original_package/.pytest_cache/v/cache/nodeids",
+      "cache"
+    ],
+    [
+      "chapters/chapter05/original_package/python_upgrade_ch05/test_results.txt",
+      "chapter QA output"
+    ],
+    [
+      "chapters/chapter05/original_package/python_upgrade_ch05/__pycache__/c2_kinetics_pipeline.cpython-313.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter05/original_package/python_upgrade_ch05/.pytest_cache/README.md",
+      "cache"
+    ],
+    [
+      "chapters/chapter05/original_package/python_upgrade_ch05/.pytest_cache/CACHEDIR.TAG",
+      "cache"
+    ],
+    [
+      "chapters/chapter05/original_package/python_upgrade_ch05/.pytest_cache/.gitignore",
+      "cache"
+    ],
+    [
+      "chapters/chapter05/original_package/python_upgrade_ch05/tests/__pycache__/test_c2.cpython-313-pytest-9.0.2.pyc",
+      "cache"
+    ],
+    [
+      "chapters/chapter05/original_package/python_upgrade_ch05/.pytest_cache/v/cache/nodeids",
+      "cache"
+    ]
+  ],
+  "sha256": {
+    "README.md": "a2eae9f41c4408268bd7fab3a43c0df273f17e8421416c09bd59b8911b858310",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    ".gitignore": "ceeaadb03a70122ec46701560eac55078bfd339b4497eec3b52f5ed87a290b2e",
+    "requirements/base.txt": "62ae6ba216c7ed8bb43ce5de74e150c0176da25a0340a1bedcb0573be63317fc",
+    "requirements/ch15.txt": "e5fa0bedaac46262cd44a5bab6954e3cfbdf1a7a9c8866a776cdd35aef590c64",
+    "environments/windows-cpu.yml": "a360c7807e9ba03646f02f7e19e3c176634ac3bc41fa863675c390b8c2fe9c02",
+    "docs/CI_POLICY.md": "69209d20e8f68905e4048c36ba79e4428bff3963d4ebf0e181ff389769be31ca",
+    "docs/WINDOWS_ANACONDA_REPRODUCIBILITY.md": "4d5531edfc4d068622cee88855973cf56257f7f3fca6a38d285662d082f2741e",
+    "docs/SOURCE_ROLE_AND_RELEASE_GATE.md": "abec43aac7a8570d257d90e865c361d4615b592d1d60b2fd0d98eab56209c312",
+    "docs/READER_CODE_MAP_CH01_17.csv": "f4c99caa623d9779fc458ca1965d72279996658ff1a32f24b1c1c00f87f8823f",
+    "docs/LICENSE_SELECTION_DECISION.md": "1cdc11005e719ac26e9b50b3564d8dcef930ae51151d2b1526e11863a1f03b08",
+    "docs/READER_CODE_COMPANION_GUIDE.md": "8cf413c16b99f2468a18cb016ec5d79774953b15500bd42ad66ab8d5967493b8",
+    "docs/PROVENANCE_AND_GATES.md": "d0adbfeeae9905a824e678384e47205dc8107652ead6299d720a7e6199caddd4",
+    "scripts/ci_preflight.py": "f2ad1bca0c4e8c4d092f4e27cd7e5423a862d3fdadb541f2f780e4f049bd3c45",
+    "scripts/check_all_chapters.py": "1e945726c45817bf4ce4f976143270156c5b979c6890b804debb2a255baf0731",
+    "scripts/check_ch02_10.py": "a8072d801ecaf2bda692b395cfa6327a20c0a6ee54e5968eb81a65d3bb151fb2",
+    "scripts/audit_import_collisions.py": "df7a7e70e2501ed4ff83c6cac515036c92953c0aeaa7f5c95f3a993db23e6791",
+    ".github/workflows/chapter-tests.yml": "a26b031b223fca9bf5d799e1f3483ddc2b2757ae140219189e7ec75a5655e00d",
+    "chapters/chapter12/README.md": "bdec2f152d171ef71537d8e5ffccdc220324fa14316a9cac82b0ad60e20135e8",
+    "chapters/chapter12/CODE_COMPANION_GUIDE_v48.md": "31b3d40ff927f1ea17996822764863f560100a4565bad5f7f54a6c928eec0c66",
+    "chapters/chapter12/requirements.txt": "d339cf901731d65defa00e0f4ca2c67549d733ad4b09657e734ee7371772d8ea",
+    "chapters/chapter12/pytest.ini": "559d903ce4243d31251b107fce61eef0025f39ede87f969d91398e36abea91f4",
+    "chapters/chapter11/kinetics.py": "21c0f8065ec719258f3e244adb72acce1809f14448f94d781f4db9c665b226ef",
+    "chapters/chapter11/test_ch11_lab.py": "89b6885e418e4c4027286c423543559bf66d6985b5da87851fde01f2791f3bd0",
+    "chapters/chapter11/ch11_lab.py": "4e9a28fe9fd1b8f8dc3b9a85429be0703c55235a4db53e3b7738a47e13e6c1bd",
+    "chapters/chapter16/README.md": "aa6930c35a4639821b1fccd60c0be72129a8cd04446dcc57bf60ed1c68fe57e0",
+    "chapters/chapter16/requirements.txt": "c6079c9c67176c6e6dc3c3d46a0cf19a6eca634ea3dd578136e5b494b3d58c27",
+    "chapters/chapter16/Code_Companion_Guide.md": "db58da704f384c6793e5afa99f74c80f3b2e22014ee696205c37e06f60d60101",
+    "chapters/chapter15/README.md": "06fdb2438e6461608d579416bb7aa5faea3265fe6261af56a5cd9adc80a91d29",
+    "chapters/chapter15/requirements.txt": "67e317b4fdcd4d975776f1f3cf68b38d973a5e87f22bb2c4a69472a27bdafa94",
+    "chapters/chapter15/Code_Companion_Extension_v54.md": "29f1c3c76d73c052e1634d981368f9f536c1a356688bc9dc86b817628d22ce5b",
+    "chapters/chapter15/Code_Companion_Guide.md": "9a90b51eda5e920120129dae533a43a45f32d9bb0c18846b5ecbea8614a2f259",
+    "chapters/chapter10/README.md": "c67bec4f80abcea4924195c34acbf54688d52619535986e79e6866bbb5b8f46e",
+    "chapters/chapter13/requirements.txt": "9dcc44c398228453e6bcd6e53889fbbed59ff8d995e037a33d3ade2752dea83e",
+    "chapters/chapter13/Code_Companion_v50.md": "bdd4801becd368cea165fc8063a0b4f8dd39f686f43a8b1dda608b53afaf5d33",
+    "chapters/chapter13/Code_Companion_Guide.md": "99a03bc9a0aecd51c79442bdbe52151f76892ed82785abcae28cc776c341d7a9",
+    "chapters/chapter17/README.md": "686be7c5e3748f0c4b6ede1a5fffcbb71bd7eccffab64a039acc8586d5ac09ba",
+    "chapters/chapter17/pyproject.toml": "27577b133ff3d7ffbdc955feee24f0745c7d07b608fc84f6037261f61bd9ba59",
+    "chapters/chapter14/README.md": "df695dd9341780bdefb993a6070163c95960c9fdf6f7647d2a3156334ca9f461",
+    "chapters/chapter14/requirements.txt": "4d5cad13e809503fa05d542e000a8008577335a7558fe4fe39004d6ac5e18202",
+    "chapters/chapter14/Code_Companion_Guide.md": "fed2267a5a9f2888999df34d033c233068b63bbedc41856c59100b565c53c297",
+    "chapters/chapter14/src/ch14_advanced.py": "bfe05b4ba9b91598ed3ad8e9fdf1c55fab565ff40f99d09044da98265be6e66c",
+    "chapters/chapter14/src/ch14_examples.py": "1b88ba054acf42db41de4d81cdcf74bcf6cd85e5862ddcc2d7112b1547184a37",
+    "chapters/chapter14/tests/test_ch14_examples.py": "7f318d80aca27ad5f03cb647454a6175a64d3d6f8954b9c9c6480b92191f74d8",
+    "chapters/chapter14/tests/test_ch14_advanced.py": "0c3e20b68f25f2958319b2037ccedff92977e9c7519aaf9bb20ec92ea7ac25b6",
+    "chapters/chapter07/original_package/README.md": "b8c18e60dd4aabd82f2a91162938a15a182a3b42e0ec1b6a140c31966fa36d30",
+    "chapters/chapter07/original_package/b1_sequences.py": "ff31a15e39be5a5f72d83ab5c5e49aa6b5882148ac7d787d5e471a68e278257f",
+    "chapters/chapter07/original_package/Chapter_07_QA_report.md": "38784847e9347593c4b22efe40c3f004f2b38d84095ee4b2bbbb72876f792395",
+    "chapters/chapter07/original_package/test_b1_sequences.py": "793358a59e7ae365a93e7c7b489d3c7cee6cc68b19441a1c1f719423a36b35d5",
+    "chapters/chapter07/original_package/Chapter_07_integrated_review.md": "4b3539bfd3137ecf3b70482b2d6fd80552507f3806c014050917156793b3ff6e",
+    "chapters/chapter17/tests/test_core.py": "cf2e718d56d76cc93b0013e64f8889c7690d452a5df55131c902b605581c58b3",
+    "chapters/chapter17/src/oscillator_lab/__main__.py": "516b38a98292ff43afc4190971708f9301d876f439aa18e66875eb34c156d670",
+    "chapters/chapter17/src/oscillator_lab/core.py": "a0d2e0796adbd1b86edbfe992c50eb8bc7d9351e5741bd7a25cc726789840dfc",
+    "chapters/chapter17/src/oscillator_lab/__init__.py": "58a0cd7018c37901bced376580499a245bfebdcf4c88b16ddc27e8368fd34630",
+    "chapters/chapter13/src/ch13_examples.py": "d6601f7907b23c72e0684df535987a58dca6a6fd313a9e3e6d8cb730595c7c4c",
+    "chapters/chapter13/src/ch13_extended.py": "d2e527476b6212991cad58d88d8931568f71182fae961d929ac778f248535dc4",
+    "chapters/chapter13/tests/test_ch13_extended.py": "63cf7240aba53d1bef3b9f3346f474a98f26a6d4329d2230fc87239b2f5e1a7e",
+    "chapters/chapter13/tests/test_ch13_examples.py": "23f7fc4209e130166e80d7999ff3dbfb0ff9aba7c549930435d2502c41b99dc2",
+    "chapters/chapter10/original_package/ch10_alignment_QA/README.md": "b87b20da95a9a13d71154e18c6a44dac71dd56ffed30c9b59c6655cd6f34321f",
+    "chapters/chapter10/original_package/ch10_alignment_QA/kinetics_output.txt": "54852dcc3d5ec6d7afe6cc2bf4ede236f580c0319403e64a0e4b0569a6d35414",
+    "chapters/chapter10/original_package/ch10_alignment_QA/composition_output.txt": "ddbae5e8fe6b7fc27c595a965b03beab76b8c36d969bbae9748e7a5165b9c91d",
+    "chapters/chapter10/original_package/ch10_alignment_QA/ch10_composition_example.py": "e8c51c4eaef74aaf75e1edb28d2795089d718cba481627edce6e4b2de4be3401",
+    "chapters/chapter10/original_package/ch10_alignment_QA/Chapter_10_alignment_QA.md": "6aaf036220e9d81f29a43e55e063265bfc45afd89968bf215f4d30a8a887b01a",
+    "chapters/chapter10/original_package/ch10_alignment_QA/test_ch10_composition_example.py": "ac8b2a7a1f05e4dc6d87932e7faf58baf3249528e2c7f24ea22001a2ba587d16",
+    "chapters/chapter10/original_package/ch10_alignment_QA/c3_supplement_output.txt": "bd514c1cd1a3cf21297dc7f72ea58e3661164726c343604eaf7de168a4cb6628",
+    "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/test_ch09_additional.py": "a67b4cba81c38865eb84a0b2dc2714077609fc1117db8aa9f766316bc7a4093a",
+    "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/test_kinetics.py": "0e0a366eb4fa30916d102c2d8bf5f1cb38d858e043a6bd6a212e281ead3736ab",
+    "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/kinetics.py": "21c0f8065ec719258f3e244adb72acce1809f14448f94d781f4db9c665b226ef",
+    "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/test_c3_pytest.py": "f797120c9f9812b04566cf960e195a5fa60e1cafdbacfe6dd0ec1f93dd62a914",
+    "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/c3_calibration.py": "454ba288035ded236595a8ee79f35f93df0e61e35413dbfcdb42c667af933422",
+    "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/c3_validation.py": "dd0057db8d2d243f1142988e0fc88f51f299bc47060d212c21116fc2efa44c2d",
+    "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/test_c3_validation.py": "555608b6de409965ee2ff3ad2a495577c01e1928cb2257fa5b51b2fefe9e206d",
+    "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/ch10_composition_example.py": "e8c51c4eaef74aaf75e1edb28d2795089d718cba481627edce6e4b2de4be3401",
+    "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/test_ch10_composition_example.py": "ac8b2a7a1f05e4dc6d87932e7faf58baf3249528e2c7f24ea22001a2ba587d16",
+    "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/test_ch10_pipeline.py": "5f2245a4b423964cab551739c4b9c2c0d54768d17522632c1f076f8bd6b38d79",
+    "chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/ch10_pipeline.py": "7513a6feb15e3c530b4c035c1c15698888e6ad62cbc2ca5e40073504a3c83895",
+    "chapters/chapter15/src/ch15_sensitivity.py": "1f250110d1d12f0cf5dc2f8fc7fd3292c2c500139bae6fbd844e450c1d62a8e3",
+    "chapters/chapter15/src/ch15_core_concepts.py": "0c6dca4335194471494c6a64f2353d303e5e57135618fd58de9eba9c017adf8b",
+    "chapters/chapter15/tests/test_ch15_core_concepts.py": "62c95d294e9d8b4c36ff8024ef4bab38fed743d78a67057fe99ad02a1dca6671",
+    "chapters/chapter15/tests/test_ch15_sensitivity.py": "8064f50b4ee24b28a9f20af5604ef7584b3a36d88bd30a19e7e5dd17d9959a7b",
+    "chapters/chapter06/original_package/README.md": "c84bdcb014b14024f9f72a9d237bac82bce657c9905b360ae8a8aa7811c37d04",
+    "chapters/chapter06/original_package/Chapter_06_integrated_review.md": "ba75bebcecb13e8dca5dccaf5ed990bf2fdb1c5218103ba3ec90885453628088",
+    "chapters/chapter06/original_package/p1_particle_trajectory.py": "f9c143a18619adea4611e41e59d66c51c82368fe57bd147f39f7c82c11bdd733",
+    "chapters/chapter06/original_package/test_p1.py": "844ee9f6e1660bb5646fef7e52b7775dfc86454c95c9d4df2798afa454f06429",
+    "chapters/chapter06/original_package/Chapter_06_QA_report.md": "56342306bd86fd92988d0ae08f7770b40886401c1ffc8e987008b60fae62fba8",
+    "chapters/chapter16/src/ch16_initial_bug.py": "33a10fcb81a318dbc85e0e6ecfa38be67d74a6108f548237967e6effcd679d63",
+    "chapters/chapter16/src/ch16_review_workflow.py": "39c26a9e193d702afaf1b85d92b8b8c88d01ceffece9fd325d0dbb7fc095c2fd",
+    "chapters/chapter16/src/ch16_validated_decay.py": "addaa5715f8d0352489ad1b4c8623e876bad6190a662e1f3fe317e245ff7ddea",
+    "chapters/chapter16/tests/test_ch16_validation.py": "9425d706469a09b59727b8d9ba6d517d4fbae0d842f6aff6589074b5f303f26e",
+    "chapters/chapter16/tests/test_ch16_review_workflow.py": "3dc86d792c73c8d5904bfe46b2ae161cc4fb801b234ad4b850ca3b24b67eac2e",
+    "chapters/chapter04/original_package/README.md": "1d37d7964b3da407af6d0fd438b944c57343bdb1440396e2aff76a33e2d8a272",
+    "chapters/chapter04/original_package/b1_dna_analysis.py": "52f34b2354b72c828bb0e44aa0cf6f467a229b9a249a216271298c37d12485e5",
+    "chapters/chapter04/original_package/test_b1_dna_analysis.py": "a851980be7ab7f6d6350fe2257e0a443849b9f43cc2712d0cb8d0b8a76f13a76",
+    "chapters/chapter04/original_package/Chapter_04_expanded_QA.md": "fd2c96a7299c7d3a5b82e6f160a4e1fe1d481c2219d04acc5a49d1bebce8f112",
+    "chapters/chapter04/original_package/Chapter_04_expanded_review.md": "332c79a18eb6cf53227d4f9362c847df2ebaa818cebfec78f8f7f18e6d550482",
+    "chapters/chapter01/sections/section_1_1_2.py": "9e5e71901511ae8f67c6a82bad2cded35b157d9fe4fb99f241d1307f08acea65",
+    "chapters/chapter01/sections/section_1_2_1.py": "d1757ea6ad242d54099d001a977a03c3a93aa117bba42e6807c3d580d4cd9f49",
+    "chapters/chapter01/sections/section_1_1_3.py": "33fdb1c9c31bed8591119957f83049f118f6c778edacc6f2fb358692a0e666dd",
+    "chapters/chapter01/sections/section_1_4_2.py": "56cbf742cb9b4ae689bdf77f321b754774f9f57f1ec84a6850f5f2a88069da99",
+    "chapters/chapter01/sections/section_1_3_2.py": "1230f12ab62d78b3717518c216f150e26b74a9fb093b4a63ca0a37f62bca1fc1",
+    "chapters/chapter01/sections/section_1_5_3.py": "b770b7be0fb09950c6f34fc7e4b5c3938626272c7e99fff87c848cca445152ef",
+    "chapters/chapter01/sections/section_1_1_1.py": "705e17ff2d8acfb46fe503f87f67d5c205feccd6c470bc7421663d46cea56098",
+    "chapters/chapter01/sections/section_1_4_3.py": "08435249d17fc355e0f4086517b4196d42127f07810c750e4d92c45abe745da3",
+    "chapters/chapter01/sections/section_1_5_2.py": "7f053c4d09c7a492c6810e487c86aee05c88ebf990817449f0d5ae88c486be05",
+    "chapters/chapter01/sections/section_1_2_2.py": "8f5e5a22cee8ae54ed4beb524fd83f0eafd5ef02907c437e31d082ab59503434",
+    "chapters/chapter01/sections/section_1_4_1.py": "a1ca3aacc2b481a4d58f1fdf4c5ea13e1c43520db937ff2e422c5060b4a6224e",
+    "chapters/chapter01/sections/section_1_3_1.py": "b73cde141b60eb6df6d065707af127bee5b6f305b2910a9a054711eeb7e92981",
+    "chapters/chapter01/sections/section_1_3_3.py": "568717c5c89f04d0890d90f10c418d10ec225e91f8ffdf03dfa20c2cad9dbc07",
+    "chapters/chapter01/sections/section_1_2_3.py": "ec9577fe3d47c2243ca3cd9ad5830977040871f8e5d6f7cb3fced26a797bb1ce",
+    "chapters/chapter01/sections/section_1_5_1.py": "96ed05e44bcdec53c7ed91c59533a37747bc3a2d9eb2c1a75e51dddf8af6ecf2",
+    "chapters/chapter12/src/ch12_canonical_examples.py": "0aa90bde3302da039df689722c9555d6ec974d02a838193c947f870e969b105a",
+    "chapters/chapter12/src/ch12_additional_manuscript_examples.py": "c6f0c2bc3002bf972e75062060cba510bd413899ecdbf5d7fb8a3f5b57ff60a7",
+    "chapters/chapter12/src/ch12_indexing_memory_examples.py": "9b52d247d42fecc4f42a83cdd1faafc2132bea0dfd86d406f0a90ae58bdf9338",
+    "chapters/chapter12/src/ch12_remaining_examples.py": "c7f7cd7bb37b1f193d0f11f53cb5a40e8aac94effdc6bc477e3d9018ce22e4ab",
+    "chapters/chapter12/src/ch12_6_10_verified_examples.py": "91e88dc821df4f3686a2bebd72dc6f25861b05d42c60775e51a0b42035513ed3",
+    "chapters/chapter12/tests/test_ch12_additional_manuscript_examples.py": "35663df1c75794b92758e1500e66cb697b35f299301603c85a46445a7c7caf00",
+    "chapters/chapter12/tests/test_ch12_canonical_examples.py": "eeb7ec19d568c61243cea5db40aa4f7a03744f6b22fefa282783b7fff52ac06a",
+    "chapters/chapter12/tests/test_ch12_6_10.py": "776b0e94692ac549c7e4f67a4153fa7f023a441d7759e9d00316d2908bf47680",
+    "chapters/chapter12/tests/test_ch12_remaining_examples.py": "d2181baaff6fb4cf658cbe6c8052f96deb51d0f5a5d9b1bd99d880731c8bcbce",
+    "chapters/chapter12/tests/test_ch12_indexing_memory.py": "c15b126222379c4830e3712ef766f640fd140092df53ee6daa20d22c1b3b6ff7",
+    "chapters/chapter08/original_package/Chapter_08/README.md": "1cdb98226072f5cb1bee777e01b47dc18f5488d20ca1b15f660bc48f6f7f509f",
+    "chapters/chapter08/original_package/Chapter_08/c3_calibration.py": "454ba288035ded236595a8ee79f35f93df0e61e35413dbfcdb42c667af933422",
+    "chapters/chapter08/original_package/Chapter_08/Chapter_08_QA_report.md": "0e56e2b238c01a21a9d051115ce6001cf91ebf84476d644ae7c173992534c858",
+    "chapters/chapter08/original_package/Chapter_08/Chapter_08_integrated_review.md": "4b0ad6c078eeb093c89387001f35c20ffc89a5a80fafe7e6d3ccea30153c760b",
+    "chapters/chapter08/original_package/Chapter_08/test_c3_calibration.py": "bfcf390967a21837bcd707e3f16bb46ce51ce31148d68cd9d22004926f674c09",
+    "chapters/chapter02/original_package/test_ch02.py": "6bfa3f64a4f6c89d2509951d668941382ce484a512934ddceb40e37bb80d9b3c",
+    "chapters/chapter02/original_package/ch02_examples.py": "48484a200d1b1245e103cc84d7a0b5afda2996d6a157cccf75bfe481322db0ce",
+    "chapters/chapter02/original_package/Chapter_02_editorial_audit.md": "3aa2dad5a3620c71a2478efe2212400d8402d0f5a2ad0a4d165d36539342add5",
+    "chapters/chapter02/original_package/Chapter_02_editorial_review.md": "6f50c02a28d209e8646dde8a24e743e3aeebd9be0eb941683c52d27ced5e40a3",
+    "chapters/chapter03/original_package/Chapter_03_integrated_review.md": "ebbc2831d20747c29c0aeeb618fd3011bbdefa734c19a55bc44bd559d135d18c",
+    "chapters/chapter03/original_package/P1_particle_motion.py": "31b5461e70f38e9211ca266454ce6ce3c5d7e489bf262e0d743048f448e44492",
+    "chapters/chapter03/original_package/Chapter_03_QA_report.md": "bff4e6aaa4c24aa9810e978d57bca228f9e532d1eec4a88b679e37a1d317d367",
+    "chapters/chapter03/original_package/test_P1.py": "cffa9daad964823ad1ddf298f19c3f9edee00ebe43bf5561698ad2ee21a62244",
+    "chapters/chapter09/original_package/test_ch09_additional.py": "a67b4cba81c38865eb84a0b2dc2714077609fc1117db8aa9f766316bc7a4093a",
+    "chapters/chapter09/original_package/test_c3_pytest.py": "f797120c9f9812b04566cf960e195a5fa60e1cafdbacfe6dd0ec1f93dd62a914",
+    "chapters/chapter09/original_package/c3_calibration.py": "454ba288035ded236595a8ee79f35f93df0e61e35413dbfcdb42c667af933422",
+    "chapters/chapter09/original_package/c3_validation.py": "dd0057db8d2d243f1142988e0fc88f51f299bc47060d212c21116fc2efa44c2d",
+    "chapters/chapter09/original_package/test_c3_validation.py": "555608b6de409965ee2ff3ad2a495577c01e1928cb2257fa5b51b2fefe9e206d",
+    "chapters/chapter09/original_package/Chapter_09_test_results.txt": "cf8cb5ce90a11194660a7237c6c94e05d4822ccbe586588c7dd5849d3340a6a5",
+    "chapters/chapter09/original_package/Chapter_09_preservation_QA.md": "771815afc99479781d4e1d0c1fbd6670bfa785b3010113989cec277e39fbb7c0",
+    "chapters/chapter09/original_package/Chapter_09_reconstructed_detailed_review.md": "9b5664155f5566ccdb2e5f0e25a3d480cbe706aa7e9fb4eed567104cfbf77d06",
+    "chapters/chapter05/original_package/python_upgrade_ch05/README.md": "8a6fb5d7dc5950665f179418d314efc5e0f8df2db541413294c18edeb7e56fb2",
+    "chapters/chapter05/original_package/python_upgrade_ch05/Chapter_05_integrated_review.md": "8042cec338c8734d46b83d2b386234e2cd8e082a6f2402b6e90379f8ae1a8389",
+    "chapters/chapter05/original_package/python_upgrade_ch05/execution_output.txt": "44c97454cde4c40616773155aa9868cc578d3b48091acc806b0174194a3f523b",
+    "chapters/chapter05/original_package/python_upgrade_ch05/c2_kinetics_pipeline.py": "2fff6bf9d577f1740bf9b48c4382520a3e8834508832724d26f16eab3deb5c02",
+    "chapters/chapter05/original_package/python_upgrade_ch05/Chapter_05_QA_report.md": "2ef71c00c66874285a9e6446035cb00460f776082e0fef1a76af63ef99622438",
+    "chapters/chapter05/original_package/python_upgrade_ch05/tests/test_c2.py": "7f8560abf50814ce518018c0ff15b6cfab0dcb397b7ea2ba3394205707f05720"
+  }
+}

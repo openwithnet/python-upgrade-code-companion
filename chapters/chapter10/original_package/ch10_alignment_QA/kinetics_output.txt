@@ -1,0 +1,6 @@
+t=0 s  Euler=1.000000  exact=1.000000
+t=1 s  Euler=0.800000  exact=0.818731
+t=2 s  Euler=0.640000  exact=0.670320
+t=3 s  Euler=0.512000  exact=0.548812
+t=4 s  Euler=0.409600  exact=0.449329
+t=5 s  Euler=0.327680  exact=0.367879

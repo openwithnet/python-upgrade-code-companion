@@ -1,0 +1,63 @@
+name: Chapter-isolated Code Companion tests
+on:
+  push:
+    paths:
+      - "chapters/**"
+      - "scripts/check_all_chapters.py"
+      - "scripts/ci_preflight.py"
+      - "requirements/**"
+      - "environments/**"
+      - "docs/CI_POLICY.md"
+      - "docs/PROVENANCE_AND_GATES.md"
+      - "docs/READER_CODE_MAP_CH01_17.csv"
+      - "docs/SOURCE_ROLE_AND_RELEASE_GATE.csv"
+      - "README.md"
+      - "LICENSE"
+      - ".github/workflows/chapter-tests.yml"
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  preflight:
+    name: Repository structure / Python 3.11 syntax preflight
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate repository chapter targets and CI inputs
+        run: python scripts/ci_preflight.py
+  chapter:
+    needs: preflight
+    name: Chapter ${{ matrix.chapter }} / Python 3.11
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        chapter: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            requirements/base.txt
+            requirements/ch15.txt
+      - name: Install shared chapter dependencies
+        run: python -m pip install -r requirements/base.txt
+      - name: Install Chapter 15 autodiff dependencies
+        if: matrix.chapter == 15
+        run: python -m pip install -r requirements/ch15.txt
+      - name: Run single chapter (no cached pass reuse)
+        run: python scripts/check_all_chapters.py --chapters ${{ matrix.chapter }} --reset
+      - name: Upload chapter execution record
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chapter-${{ matrix.chapter }}-qa
+          path: |
+            docs/ALL_CHAPTER_TEST_RESULTS.json
+            docs/ALL_CHAPTER_TEST_STATE.json
+          if-no-files-found: warn

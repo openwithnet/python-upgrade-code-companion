@@ -1,0 +1,7 @@
+module_name,chapter_count,file_count,paths,risk
+c3_calibration,3,3,chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/c3_calibration.py | chapters/chapter08/original_package/Chapter_08/c3_calibration.py | chapters/chapter09/original_package/c3_calibration.py,test or import collision if sys.path is shared
+c3_validation,2,2,chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/c3_validation.py | chapters/chapter09/original_package/c3_validation.py,test or import collision if sys.path is shared
+kinetics,2,2,chapters/chapter11/kinetics.py | chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/kinetics.py,test or import collision if sys.path is shared
+test_c3_pytest,2,2,chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/test_c3_pytest.py | chapters/chapter09/original_package/test_c3_pytest.py,test or import collision if sys.path is shared
+test_c3_validation,2,2,chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/test_c3_validation.py | chapters/chapter09/original_package/test_c3_validation.py,test or import collision if sys.path is shared
+test_ch09_additional,2,2,chapters/chapter10/original_package/ch10_alignment_QA/verified_suite/test_ch09_additional.py | chapters/chapter09/original_package/test_ch09_additional.py,test or import collision if sys.path is shared

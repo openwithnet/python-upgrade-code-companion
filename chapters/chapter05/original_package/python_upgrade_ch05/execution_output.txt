@@ -1,0 +1,12 @@
+Interval       Midpoint     Rate
+ 0.0- 1.0         0.50       1.800
+ 1.0- 2.0         1.50       1.500
+ 2.0- 3.0         2.50       1.200
+ 3.0- 4.0         3.50       0.900
+
+First-order model comparison
+t= 0.0  C_model=10.0000
+t= 1.0  C_model= 8.1873
+t= 2.0  C_model= 6.7032
+t= 3.0  C_model= 5.4881
+t= 4.0  C_model= 4.4933

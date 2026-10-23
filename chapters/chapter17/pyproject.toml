@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "python-upgrade-oscillator-lab-candidate"
+version = "0.1.0"
+description = "Chapter 17.11 reconstructed educational candidate, not the historical original"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+[project.optional-dependencies]
+test = ["pytest>=7"]
+[tool.setuptools.packages.find]
+where = ["src"]

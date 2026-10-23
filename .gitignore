@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env/
+# Regenerated test outputs (do not commit mutable pass state)
+docs/ALL_CHAPTER_TEST_RESULTS.json
+docs/ALL_CHAPTER_TEST_STATE.json
