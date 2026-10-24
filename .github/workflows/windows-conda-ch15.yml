@@ -1,0 +1,54 @@
+name: Windows Conda and Chapter 15
+on:
+  push:
+    paths:
+      - .github/workflows/windows-conda-ch15.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  conda-core:
+    runs-on: windows-latest
+    timeout-minutes: 60
+    env:
+      PYTHONUTF8: '1'
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          activate-environment: python-upgrade
+          environment-file: environments/windows-cpu.yml
+          auto-activate-base: false
+      - name: Core tests in conda environment
+        shell: pwsh
+        run: |
+          conda run -n python-upgrade python -m pip check
+          conda run -n python-upgrade python scripts/check_all_chapters.py --chapters 1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17 --reset
+  chapter15-pip:
+    runs-on: windows-latest
+    timeout-minutes: 60
+    env:
+      PYTHONUTF8: '1'
+      PYTHONIOENCODING: utf-8
+      JAX_PLATFORMS: cpu
+      CUDA_VISIBLE_DEVICES: '-1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Chapter 15 dependencies
+        run: |
+          python -m pip install -r requirements/base.txt
+          python -m pip install -r requirements/ch15.txt
+          python -m pip check
+      - name: Check chapter 15
+        run: python scripts/check_all_chapters.py --chapters 15 --reset
+      - name: Show failed output
+        if: failure()
+        shell: pwsh
+        run: |
+          if (Test-Path docs/ALL_CHAPTER_TEST_RESULTS.json) {
+            Get-Content docs/ALL_CHAPTER_TEST_RESULTS.json
+          }
