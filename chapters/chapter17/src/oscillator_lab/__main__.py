@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: EXECUTABLE
+# CODE_COMPANION_PROVENANCE: RECONSTRUCTED_NOT_ORIGINAL
+# CODE_COMPANION_RELEASE: RETAIN_AS_CANDIDATE_NOT_FROZEN
 import numpy as np
 from . import OscillatorModel, EulerSolver, RK4Solver, SciPySolver, exact_state, energy
 

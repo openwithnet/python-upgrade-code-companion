@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: TEST
+# CODE_COMPANION_PROVENANCE: RECONSTRUCTED_NOT_ORIGINAL
+# CODE_COMPANION_RELEASE: EXCLUDE_FROM_PRODUCTION
 import numpy as np
 import pytest
 from oscillator_lab import (OscillatorModel, EulerSolver, RK4Solver, SciPySolver, exact_state, energy, real_array)
