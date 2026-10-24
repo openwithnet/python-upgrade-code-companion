@@ -1,6 +1,6 @@
 # 과학자를 위한 Python 업그레이드 — 통합 Code Companion 후보 v75
 
-**상태: 통합 구조 검증 중 / NOT FROZEN / GitHub 배포 전**
+**상태: 비공개 GitHub 저장소 업로드 및 Python 3.11 CI 통과 / 공개 Release 전 / NOT FROZEN**
 
 - `chapters/chapter01`과 `chapters/chapter02`–`chapter17`에 현재 확보한 후보 소스를 보존했습니다.
 - Chapter 02–10은 최초 `Downloads.zip`의 장별 검토 패키지에서 원래 상대경로/파일명으로 추출한 *원본 보존 사본*입니다. 테스트나 재구성 프로그램을 포함할 수 있으며 최종 canonical 코드 선정은 남았습니다.
@@ -29,7 +29,7 @@ python -m pip install -r requirements/ch15.txt
 python scripts/check_all_chapters.py --reset
 ```
 
-`--reset`은 이전 통과 기록을 무시해 재검증합니다. CI는 `.github/workflows/chapter-tests.yml`에서 장별 독립 작업으로 실행합니다. 자세한 주의사항은 `docs/CI_POLICY.md` 참조. GitHub 호스팅 검증은 아직 미실시입니다.
+`--reset`은 이전 통과 기록을 무시해 재검증합니다. CI는 `.github/workflows/chapter-tests.yml`에서 장별 독립 작업으로 실행합니다. 자세한 주의사항은 `docs/CI_POLICY.md` 참조. GitHub 호스팅 검증: 2026-10-23 push Run #1 (ID `39938553273`), 커밋 `c9035fae9eed05a9cde49be12a4ccaecee725ab9`에서 preflight 1개 + Chapter 1–17 17개 작업 모두 `completed/success` 확인. [실행 기록](https://github.com/openwithnet/python-upgrade-code-companion/actions/runs/39938553273).
 
 ## Source roles and release boundaries
 
@@ -42,7 +42,7 @@ Windows 사용자는 [`environments/windows-cpu.yml`](environments/windows-cpu.y
 
 ## GitHub 공개 전 점검
 
-내부 작업 저장소의 배포 준비 감사 기록을 참고하십시오. **Apache License 2.0의 최상위 LICENSE를 적용했으며**, GitHub Actions의 실제 서버 실행·Windows 신규 환경 재현성·최종 Microsoft Word 표시 검증은 미완료입니다. 배포 승인 전까지 릴리스 후보로 유지합니다.
+내부 작업 저장소의 배포 준비 감사 기록을 참고하십시오. **Apache License 2.0의 최상위 LICENSE를 적용했으며**, GitHub Actions의 **최초 실행은 성공**했습니다. Windows 신규 환경 재현성·최종 Microsoft Word 표시 검증은 미완료입니다. 배포 승인 전까지 릴리스 후보로 유지합니다.
 
 코드 출처·라이선스 1차 감사: 내부 작업 저장소의 출처 감사 기록. **Apache-2.0 선택은 확정했지만 파일별 제3자 권리 확인과 공개 승인은 미완료입니다.**
 
@@ -58,11 +58,11 @@ Windows 사용자는 [`environments/windows-cpu.yml`](environments/windows-cpu.y
 
 ## Python 3.11 verification status
 
-Python 3.11 syntax-only audit passed (84 `.py` files); clean runtime installation and hosted CI remain unverified. See 내부 작업 저장소의 Python 3.11 재현성 검증 기록.
+Python 3.11 syntax-only audit passed (84 `.py` files). Hosted Ubuntu/Python 3.11 CI Run #1 passed all 18 jobs; independent Windows/Anaconda clean runtime remains unverified. See 내부 작업 저장소의 Python 3.11 재현성 검증 기록.
 
 Offline CI configuration/target audit: `python scripts/ci_preflight.py` (does not require third-party packages).
 
 
 ## 릴리스 상태
 
-이 디렉터리는 공개 전 **검토용 후보**이며 GitHub에 게시되거나 최종 동결되지 않았습니다. Python 3.11 실제 CI, Windows/Anaconda 독립 설치, 외부 자료 권리 확인 및 Word 원고 대응 최종 검증은 완료되지 않았습니다. 내부 QA 원자료는 별도 작업 저장소에 보존합니다.
+이 저장소는 현재 **GitHub 비공개 저장소에 업로드된 검토용 후보**이며 최종 동결·공개하지 않았습니다. 2026-10-23 GitHub Actions Python 3.11 CI 최초 실행의 모든 18개 작업은 성공했습니다. Windows/Anaconda 독립 설치, 외부 자료 권리 확인, Word 원고 전체 코드의 1:1 대응 및 최종 Word 표시 검증은 완료되지 않았습니다. 내부 QA 원자료는 별도 작업 저장소에 보존합니다.
