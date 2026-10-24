@@ -21,10 +21,11 @@ jobs:
           environment-file: environments/windows-cpu.yml
           auto-activate-base: false
       - name: Core tests in conda environment
-        shell: pwsh
+        shell: cmd
         run: |
-          conda run -n python-upgrade python -m pip check
-          conda run -n python-upgrade python scripts/check_all_chapters.py --chapters 1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17 --reset
+          call "%CONDA%\condabin\conda.bat" activate python-upgrade
+          python -m pip check
+          python scripts/check_all_chapters.py --chapters 1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17 --reset
   chapter15-pip:
     runs-on: windows-latest
     timeout-minutes: 60
