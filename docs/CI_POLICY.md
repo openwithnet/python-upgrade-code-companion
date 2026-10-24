@@ -5,7 +5,7 @@
 3. `check_all_chapters.py --chapters N --reset` 명령으로 CI에서 기존 결과를 강제로 초기화한다.
 4. Chapter 10은 `--import-mode=importlib`로 테스트 파일의 동일 이름 충돌을 우회한다. 라이브러리 이름 충돌 자체가 해결됐다는 의미는 아니다.
 5. `chapter17`은 원래 Word 원고의 검증된 원본 코드가 아니라 재구성 후보로서 provenance 경고 유지.
-6. GitHub Actions YAML을 작성했지만 **실제 GitHub-hosted runner 실행은 아직 하지 않았다**. 현재 환경은 Linux Python의 기존 장별 검증만 확인했다.
+6. GitHub-hosted Ubuntu/Python 3.11 장별 18개 작업은 Run #12 (`40062492646`, commit `125b792ffbf057892f84bd890cd8fcfb385ca66c`)에서 성공했다. 이는 Windows/Anaconda 검증이나 Word 코드 전체 대응 검증을 의미하지 않는다.
 7. Windows + Anaconda, Word 원고 전체 소스와 일대일 대응, 배포 환경 lock 및 GitHub 공개는 별도의 release gate로 남는다.
 
 ## 검증 명령
