@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: INTENTIONAL_BUG
+# CODE_COMPANION_PROVENANCE: WORD_BASED_REPRESENTATIVE_RECONSTRUCTION
+# CODE_COMPANION_RELEASE: CANDIDATE_NOT_FROZEN
 """교육용 의도적 결함 — 최종 구현에 사용하지 마십시오."""
 import numpy as np
 def buggy_numeric_array(value):
