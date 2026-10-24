@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: REFERENCE
+# CODE_COMPANION_PROVENANCE: RECONSTRUCTED_NOT_ORIGINAL
+# CODE_COMPANION_RELEASE: CANDIDATE_NOT_FROZEN
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 import math
