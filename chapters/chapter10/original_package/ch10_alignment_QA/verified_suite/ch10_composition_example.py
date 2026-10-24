@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: EXECUTABLE
+# CODE_COMPANION_PROVENANCE: ARCHIVED_CHAPTER_REVIEW_COPY
+# CODE_COMPANION_RELEASE: RETAIN_AS_CANDIDATE_NOT_FROZEN
 """Chapter 10.3-10.4 explanatory one-step composition example.
 
 Distinct from the Chapter 10.5 canonical kinetics.py: this API uses signed

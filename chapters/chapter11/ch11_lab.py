@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: REFERENCE
+# CODE_COMPANION_PROVENANCE: RECOVERED_V72
+# CODE_COMPANION_RELEASE: RETAIN_AS_CANDIDATE_NOT_FROZEN
 """Chapter 11.6: replaceable numerical strategies, first-order kinetics.
 
 Units: concentration mol/L, time s, first-order k s^-1.
