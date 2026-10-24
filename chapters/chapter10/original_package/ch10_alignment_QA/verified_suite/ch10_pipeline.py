@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: EXECUTABLE
+# CODE_COMPANION_PROVENANCE: ARCHIVED_CHAPTER_REVIEW_COPY
+# CODE_COMPANION_RELEASE: CANDIDATE_NOT_FROZEN
 """Chapter 10.6 educational orchestration; depends on unchanged C3 modules."""
 from __future__ import annotations
 from dataclasses import dataclass
