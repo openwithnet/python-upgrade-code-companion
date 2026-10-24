@@ -21,6 +21,15 @@ jobs:
         run: python -m pip check
       - name: Run chapter 1-14 and 16-17 tests
         run: python scripts/check_all_chapters.py --chapters 1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17 --reset
+      - name: Show failing chapter diagnostics
+        if: failure()
+        shell: pwsh
+        run: |
+          $report = Get-Content docs/ALL_CHAPTER_TEST_RESULTS.json -Raw | ConvertFrom-Json
+          $report.results | Where-Object { $_.status -ne 'PASS' } | ForEach-Object {
+            Write-Host ('Failed chapter: ' + $_.chapter + ' / ' + $_.label)
+            Write-Host $_.output_tail
+          }
       - name: Preserve summary on failure
         if: always()
         uses: actions/upload-artifact@v4
