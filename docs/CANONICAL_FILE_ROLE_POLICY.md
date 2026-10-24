@@ -1,0 +1,3 @@
+# Canonical File Role Policy v1
+
+For chapter Python files, keep PRIMARY ROLE distinct from PROVENANCE and RELEASE STATUS. Roles: EXECUTABLE, REFERENCE, SNIPPET, PSEUDOCODE, INTENTIONAL_BUG, TEST, INTERNAL_QA. RECONSTRUCTED is provenance, not a role. Comments at file tops must not alter Python behavior, shebang, encoding, or module docstrings. The catalog is a pre-release classification; it is not a copyright clearance or manuscript 1:1 proof. Chapter 16 intentionally flawed example is not for production; Chapter 17 is reconstructed, not historical original. Tests marked EXCLUDE_FROM_PRODUCTION need not be removed from a public source repository. Public release remains on hold pending rights verification and other gates.
