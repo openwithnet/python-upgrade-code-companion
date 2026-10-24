@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: REFERENCE
+# CODE_COMPANION_PROVENANCE: RECOVERED_V72
+# CODE_COMPANION_RELEASE: RETAIN_AS_CANDIDATE_NOT_FROZEN
 """Educational first-order A -> B kinetics; concentration in mol/L, time in s."""
 from __future__ import annotations
 from dataclasses import dataclass

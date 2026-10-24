@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: TEST
+# CODE_COMPANION_PROVENANCE: WORD_BASED_REPRESENTATIVE_RECONSTRUCTION
+# CODE_COMPANION_RELEASE: EXCLUDE_FROM_PRODUCTION
 import numpy as np
 import pytest
 from ch12_remaining_examples import (shape_axis_reduction,simulate_euler,floating_point_examples,positions_with_loop,positions_vectorized,compare_position_methods)

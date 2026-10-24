@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: TEST
+# CODE_COMPANION_PROVENANCE: RECOVERED_V72
+# CODE_COMPANION_RELEASE: EXCLUDE_FROM_PRODUCTION
 import math
 import pytest
 from kinetics import FirstOrderRate, simulate_euler, exact_first_order

@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: REFERENCE
+# CODE_COMPANION_PROVENANCE: WORD_BASED_REPRESENTATIVE_RECONSTRUCTION
+# CODE_COMPANION_RELEASE: RETAIN_AS_CANDIDATE_NOT_FROZEN
 """Chapter 12 additional runnable excerpts reconstructed from the Word manuscript.
 
 12.3.3 and 12.6.2; scientific contracts are exactly as stated in these excerpts.

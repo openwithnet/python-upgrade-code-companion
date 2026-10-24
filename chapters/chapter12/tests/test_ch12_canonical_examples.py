@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: TEST
+# CODE_COMPANION_PROVENANCE: WORD_BASED_REPRESENTATIVE_RECONSTRUCTION
+# CODE_COMPANION_RELEASE: EXCLUDE_FROM_PRODUCTION
 import numpy as np
 from ch12_canonical_examples import decay_vectorized, axis_means, broadcasting
 

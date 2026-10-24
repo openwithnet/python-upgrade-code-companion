@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: REFERENCE
+# CODE_COMPANION_PROVENANCE: WORD_BASED_REPRESENTATIVE_RECONSTRUCTION
+# CODE_COMPANION_RELEASE: RETAIN_AS_CANDIDATE_NOT_FROZEN
 """Chapter 12 sections 12.1–12.3: manuscript-aligned canonical teaching examples.
 Reassembled from code statements in the manuscript; this is NOT an original release source.
 """
