@@ -1,0 +1,33 @@
+name: Refresh Code Role Hashes
+on:
+  push:
+    paths:
+      - .github/workflows/refresh-code-role-hashes.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh-sha256:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate headers and refresh sha256 catalog
+        run: |
+          python scripts/audit_code_role_hashes.py --write
+          python scripts/audit_code_role_hashes.py
+      - name: Commit refreshed inventory
+        run: |
+          if ! git diff --quiet -- docs/SOURCE_ROLE_AND_RELEASE_GATE.csv; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs/SOURCE_ROLE_AND_RELEASE_GATE.csv
+            git commit -m "qa: refresh 81 code-file SHA-256 hashes"
+            git push
+          else
+            echo "Manifest already matches working-tree SHA-256 values."
+          fi
