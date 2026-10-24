@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: INTERNAL_QA
+# CODE_COMPANION_PROVENANCE: ARCHIVED_CHAPTER_REVIEW_COPY
+# CODE_COMPANION_RELEASE: EXCLUDE_FROM_PRODUCTION
 """Chapter 10.3-10.4 explanatory one-step composition example.
 
 Distinct from the Chapter 10.5 canonical kinetics.py: this API uses signed
