@@ -42,7 +42,7 @@ PYTHONPATH=src python -m oscillator_lab
 
 - Word v37의 모든 코드 블록과 저장소의 일대일 대응
 - Windows/Anaconda 신규 환경 재현
-- GitHub Actions의 호스팅 실행 결과
+- GitHub Actions의 첫 호스팅 실행은 **2026-10-23 Run #1 (`39938553273`)에서 18개 작업 모두 성공**했습니다(원본 기준 커밋 `c9035fae9eed05a9cde49be12a4ccaecee725ab9`). 이는 Ubuntu/Python 3.11 CI에만 해당합니다. [실행 기록](https://github.com/openwithnet/python-upgrade-code-companion/actions/runs/39938553273)
 - 최종 원고의 Microsoft Word 수식·목차·페이지 표시 QA
 
 배포 시 위의 미검증 범위를 검증 완료로 표시하지 않습니다.
