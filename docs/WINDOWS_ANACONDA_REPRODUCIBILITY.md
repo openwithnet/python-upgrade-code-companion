@@ -1,8 +1,15 @@
 # Windows + Anaconda 재현성 안내 (Candidate / NOT FROZEN)
 
+## 2026-10-25 G2 검증 판정
+
+- **Windows / Python 3.11 + pip 기본 검사:** GitHub Actions Run `40140441877`, 30/30 PASS (`PYTHONUTF8=1`, `PYTHONIOENCODING=utf-8`).
+- **Windows / Miniconda + Python 3.11 기본 검사:** GitHub Actions Run `40140880013`, `conda-core` 30/30 PASS. `environments/windows-cpu.yml`을 사용한 GitHub 호스팅 Windows 환경의 증거입니다.
+- **Windows / Python 3.11 + Chapter 15 PyTorch/JAX CPU:** 동일 Run `40140880013`, `chapter15-pip` 1/1 PASS.
+- **범위 제한:** 사용자 PC에서의 독립적인 Anaconda 설치, 전체 Word 코드의 1:1 대응, 모든 라이브러리 버전 조합, 제3자 재배포 권리는 별개 검증입니다. 따라서 공개 릴리스는 여전히 HOLD입니다.
+
 ## 검증 범위
 
-이 문서는 **Windows에서 직접 실행해 검증한 결과가 아닙니다.** 기존 Linux/Python 3.13 작업 환경의 장별 테스트 성공과 설치 패키지 목록을 토대로 작성한 **Windows 설치 후보 절차**입니다. Windows + Python 3.11 + CPU 신규 환경에서 실제 설치·재실행하기 전에는 'Windows verified'로 표기하지 않습니다.
+현재 GitHub 호스팅 Windows/Python 3.11 환경의 pip 및 Miniconda 기본 테스트와 Chapter 15 CPU 테스트에서 PASS를 확인했습니다(상단 검증 판정 참조). 아래 절차는 사용자 PC에서 독립적으로 설치·재실행하기 위한 안내이며, 특정 사용자 PC에서 직접 검증한 결과는 아닙니다.
 
 ## Windows 한국어 출력 인코딩
 
