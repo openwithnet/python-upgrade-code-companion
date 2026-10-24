@@ -4,6 +4,17 @@
 
 이 문서는 **Windows에서 직접 실행해 검증한 결과가 아닙니다.** 기존 Linux/Python 3.13 작업 환경의 장별 테스트 성공과 설치 패키지 목록을 토대로 작성한 **Windows 설치 후보 절차**입니다. Windows + Python 3.11 + CPU 신규 환경에서 실제 설치·재실행하기 전에는 'Windows verified'로 표기하지 않습니다.
 
+## Windows 한국어 출력 인코딩
+
+Windows GitHub Actions 초기 실행에서 Chapter 1.2.3의 한국어 오류 안내문을 출력할 때 `cp1252` 콘솔 때문에 `UnicodeEncodeError`가 발생했습니다. NumPy의 예상된 `ValueError` 처리는 정상 동작했습니다. Windows 새 콘솔에서 테스트하기 전 다음처럼 Python UTF-8 모드를 지정합니다. 이 설정은 현재 셸 세션에만 적용됩니다.
+
+```bat
+set PYTHONUTF8=1
+set PYTHONIOENCODING=utf-8
+```
+
+PowerShell에서는 `$env:PYTHONUTF8='1'` 및 `$env:PYTHONIOENCODING='utf-8'`을 사용합니다. UTF-8 설정을 적용한 Windows CI의 결과는 별도로 검증해야 합니다.
+
 ## 최소 설치 (Anaconda Prompt, Windows)
 
 ```bat
