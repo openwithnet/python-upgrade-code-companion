@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: EXECUTABLE
+# CODE_COMPANION_PROVENANCE: ARCHIVED_CHAPTER_REVIEW_COPY
+# CODE_COMPANION_RELEASE: RETAIN_AS_CANDIDATE_NOT_FROZEN
 """Chapter 5 C2 — function-oriented analysis of kinetic observations.
 
 Python >=3.10; NumPy >=1.24. Input times in min, concentrations in mmol/L.

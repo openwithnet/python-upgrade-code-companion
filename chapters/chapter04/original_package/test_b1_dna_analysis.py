@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: TEST
+# CODE_COMPANION_PROVENANCE: ARCHIVED_CHAPTER_REVIEW_COPY
+# CODE_COMPANION_RELEASE: EXCLUDE_FROM_PRODUCTION
 """unittest suite for Chapter 4 B1 canonical exercise."""
 import math
 import unittest

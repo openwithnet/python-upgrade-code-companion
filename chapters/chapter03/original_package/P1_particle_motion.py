@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: EXECUTABLE
+# CODE_COMPANION_PROVENANCE: ARCHIVED_CHAPTER_REVIEW_COPY
+# CODE_COMPANION_RELEASE: RETAIN_AS_CANDIDATE_NOT_FROZEN
 """P1: Explicit Euler for constant acceleration. Python standard library only."""
 import math
 

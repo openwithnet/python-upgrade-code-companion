@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: EXECUTABLE
+# CODE_COMPANION_PROVENANCE: ARCHIVED_CHAPTER_REVIEW_COPY
+# CODE_COMPANION_RELEASE: RETAIN_AS_CANDIDATE_NOT_FROZEN
 """B1 DNA sequence analysis: Chapter 4 canonical function-first example.
 
 Python >= 3.13, standard library only. This is an educational, A/C/G/T-only model.

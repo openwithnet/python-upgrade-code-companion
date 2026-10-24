@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: TEST
+# CODE_COMPANION_PROVENANCE: ARCHIVED_CHAPTER_REVIEW_COPY
+# CODE_COMPANION_RELEASE: EXCLUDE_FROM_PRODUCTION
 """Regression and scientific reference checks for the P1 procedural example."""
 import math
 import subprocess

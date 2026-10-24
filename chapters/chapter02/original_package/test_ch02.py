@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: TEST
+# CODE_COMPANION_PROVENANCE: ARCHIVED_CHAPTER_REVIEW_COPY
+# CODE_COMPANION_RELEASE: EXCLUDE_FROM_PRODUCTION
 """Numerical checks for the C1 anchor example."""
 import math
 import numpy as np
