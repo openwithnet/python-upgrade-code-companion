@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: REFERENCE
+# CODE_COMPANION_PROVENANCE: WORD_BASED_REPRESENTATIVE_RECONSTRUCTION
+# CODE_COMPANION_RELEASE: RETAIN_AS_CANDIDATE_NOT_FROZEN
 """Chapter 13 SciPy/pandas reviewed representative executable examples.
 Based on teaching patterns in sections 13.2, 13.4, 13.5–13.8;
 not a verbatim extraction of the full manuscript.

@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: TEST
+# CODE_COMPANION_PROVENANCE: WORD_BASED_REPRESENTATIVE_RECONSTRUCTION
+# CODE_COMPANION_RELEASE: EXCLUDE_FROM_PRODUCTION
 import numpy as np
 import pytest
 from ch14_advanced import (compare_estimators, MeanRegressor, fit_and_predict,

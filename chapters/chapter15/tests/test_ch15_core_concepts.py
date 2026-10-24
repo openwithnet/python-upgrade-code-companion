@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: TEST
+# CODE_COMPANION_PROVENANCE: WORD_BASED_REPRESENTATIVE_RECONSTRUCTION
+# CODE_COMPANION_RELEASE: EXCLUDE_FROM_PRODUCTION
 import numpy as np
 import pytest
 from ch15_core_concepts import (torch_backward_example,torch_tensor_numpy_copy,jax_functional_grad,jax_array_update,derivative_comparison,three_library_decay)

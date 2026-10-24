@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: REFERENCE
+# CODE_COMPANION_PROVENANCE: WORD_BASED_REPRESENTATIVE_RECONSTRUCTION
+# CODE_COMPANION_RELEASE: RETAIN_AS_CANDIDATE_NOT_FROZEN
 """Chapter 15.2–15.4 and 15.6: CPU, educational examples.
 These are checked companion reconstructions, not verbatim complete manuscript exports.
 """

@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: TEST
+# CODE_COMPANION_PROVENANCE: WORD_BASED_REPRESENTATIVE_RECONSTRUCTION
+# CODE_COMPANION_RELEASE: EXCLUDE_FROM_PRODUCTION
 import sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).parents[1]/"src"))

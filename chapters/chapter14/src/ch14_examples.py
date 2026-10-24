@@ -1,3 +1,6 @@
+# CODE_COMPANION_ROLE: REFERENCE
+# CODE_COMPANION_PROVENANCE: WORD_BASED_REPRESENTATIVE_RECONSTRUCTION
+# CODE_COMPANION_RELEASE: RETAIN_AS_CANDIDATE_NOT_FROZEN
 """Chapter 14, representative runnable examples based on textbook §§14.2–14.6.
 Reconstructed examples, not a verbatim full-manuscript export.
 """
