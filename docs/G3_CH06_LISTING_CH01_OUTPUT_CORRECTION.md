@@ -1,0 +1,9 @@
+# G3 — Chapter 6 Whole Listing and Chapter 1 Output Boundary (2026-10-25)
+
+**Chapter 6 result:** The current Word QA Chapter 6 §6.5.2 listing is held in DOCX paragraph indexes 898–907. Joining those paragraphs produces a **120-line Python program** that compiles and executes with return code 0. Its exact stdout matches Word paragraph 910 (five rows from t=0 to 2, Euler final x=3, exact x=4, absolute error=1). This establishes **actual whole Word-listing execution/output parity**, not yet a byte-for-byte diff with the archived GitHub file. Repository source `p1_particle_trajectory.py` exposes the same functions/classes and numerical constants. Differences in role/provenance comment headers are expected.
+
+**Chapter 1 §1.5.3 correction:** Current Word QA paragraph 223 is code, 224 is the output label, 225 is standalone output `True`. The repository `sections/section_1_5_3.py` previously included a bare `True` expression after its print, a misclassified expected-output artifact. Commit `29817fd26c3b951757fe363b2a4252608b210475` removed the bare expected-output expression and corrected the Word paragraph anchor to 223, without changing the executable scientific calculation. This source edit invalidates the prior SHA256 row in `docs/SOURCE_ROLE_AND_RELEASE_GATE.csv` until refreshed.
+
+**Verification in flight:** Pushed source change triggered Linux workflow `Chapter-isolated Code Companion tests` Run `40181424645`; its conclusion must be checked after completion. Previous G1/G2 results apply to earlier commits and should not be relabelled as tests of this new commit. Windows hosted revalidation of the changed file may still be appropriate. Source provenance still `WORD_EXTRACT_REASSEMBLED`.
+
+**Unresolved:** Confirm exact source-string diff and any nonsemantic differences for Chapter 6; refresh the single source SHA256 row, and check current-head CI before G3 or release approvals. G4/G5/G6 remain HOLD.
