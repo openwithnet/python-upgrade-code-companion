@@ -15,12 +15,12 @@ print(array * 2)
 
 
 # --- Current section: 1.4.3 ---
-# manuscript paragraph 166
+# manuscript paragraph 168 (v37 G4 QA; zero-based)
 values = np.array([10., 12., 11., 13., 14.])
 print(np.sum(values), np.mean(values))
 print(round(np.std(values), 6), round(np.std(values, ddof=1), 6))
 
-# manuscript paragraph 172
+# manuscript paragraph 174 (v37 G4 QA; zero-based)
 expression = np.array([[10., 20., 30.], [12., 18., 33.], [15., 22., 29.]])
 print(np.mean(expression, axis=0))
 print(np.mean(expression, axis=1))
