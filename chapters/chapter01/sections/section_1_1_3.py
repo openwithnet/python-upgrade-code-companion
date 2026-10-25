@@ -8,7 +8,7 @@
 # Dependencies retained from original manuscript (minimal verified subset).
 
 # --- Current section: 1.1.3 ---
-# manuscript paragraph 32
+# manuscript paragraph 34 (v37 G4 QA; zero-based)
 import numpy as np
 values = [1, 2, 3]
 array = np.array(values)
