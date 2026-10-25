@@ -15,7 +15,7 @@ print(expression.shape, expression.dtype)
 
 
 # --- Current section: 1.5.2 ---
-# manuscript paragraph 196
+# manuscript paragraph 198 (v37 G4 QA; zero-based)
 gene_means = np.mean(expression, axis=0)
 sample_means = np.mean(expression, axis=1)
 gene_c = expression[:, 2]
@@ -27,20 +27,20 @@ print(gene_c)
 print(difference)
 print(np.round(ratio, 3))
 
-# manuscript paragraph 207
+# manuscript paragraph 209 (v37 G4 QA; zero-based)
 sample1 = expression[0, :]
 sample2 = expression[1, :]
 print(sample2 - sample1)
 print(np.round(sample2 / sample1, 3))
 
-# manuscript paragraph 212
+# manuscript paragraph 214 (v37 G4 QA; zero-based)
 sample_names = ['Sample 1', 'Sample 2', 'Sample 3']
 gene_names = ['Gene A', 'Gene B', 'Gene C', 'Gene D']
 assert expression.shape == (len(sample_names), len(gene_names))
 for gene, mean_value in zip(gene_names, np.mean(expression, axis=0)):
     print(f'{gene}: {mean_value:.2f}')
 
-# manuscript paragraph 216
+# manuscript paragraph 218 (v37 G4 QA; zero-based)
 assert expression.shape == (3, 4)
 assert len(sample_names) == expression.shape[0]
 assert len(gene_names) == expression.shape[1]
