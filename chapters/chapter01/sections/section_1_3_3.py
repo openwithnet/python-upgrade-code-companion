@@ -15,30 +15,30 @@ print(array * 2)
 
 
 # --- Current section: 1.3.3 ---
-# manuscript paragraph 118
+# manuscript paragraph 120 (v37 G4 QA; zero-based)
 expression = np.array([[10, 20, 30, 40], [12, 18, 33, 39], [15, 22, 29, 45]])
 print(expression[1, :])
 print(expression[:, 2])
 print(expression[1:3, 1:3])
 print(expression[1, :].shape, expression[1:2, :].shape)
 
-# manuscript paragraph 122
+# manuscript paragraph 124 (v37 G4 QA; zero-based)
 data = np.arange(24).reshape(2, 3, 4)
 print(data[0, :, :].shape)
 print(data[..., 2].shape)
 
-# manuscript paragraph 129
+# manuscript paragraph 131 (v37 G4 QA; zero-based)
 import numpy as np
 times = np.linspace(0.0, 5.0, 11)
 positions = 2.0 + 3.0 * times
 print(times[3], positions[3])
 print(times[6:9], positions[6:9])
 
-# manuscript paragraph 134
+# manuscript paragraph 136 (v37 G4 QA; zero-based)
 matrix = np.array([[10, 20, 30], [40, 50, 60]])
 print(matrix[1, :].shape)   # (3,)
 print(matrix[1:2, :].shape) # (1, 3)
 
-# manuscript paragraph 137
+# manuscript paragraph 139 (v37 G4 QA; zero-based)
 data = np.arange(24).reshape(2, 3, 4)
 print(data[..., 2].shape)
