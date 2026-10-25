@@ -15,13 +15,13 @@ print(array * 2)
 
 
 # --- Current section: 1.3.2 ---
-# manuscript paragraph 105
+# manuscript paragraph 107 (v37 G4 QA; zero-based)
 values = np.array([10, 20, 30, 40, 50, 60])
 print(values[1:4])
 print(values[::2])
 print(values[::-1])
 
-# manuscript paragraph 109
+# manuscript paragraph 111 (v37 G4 QA; zero-based)
 times = np.linspace(0.0, 10.0, 11)
 positions = 2.0 * times
 print(times[3:7])
