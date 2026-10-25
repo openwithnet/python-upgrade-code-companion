@@ -15,7 +15,7 @@ print(array * 2)
 
 
 # --- Current section: 1.4.2 ---
-# manuscript paragraph 157
+# manuscript paragraph 159 (v37 G4 QA; zero-based)
 times = np.linspace(0.0, 5.0, 6)
 x0 = 2.0; velocity = 3.0
 positions = x0 + velocity * times
