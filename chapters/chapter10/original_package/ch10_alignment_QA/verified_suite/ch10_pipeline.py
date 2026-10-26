@@ -1,7 +1,12 @@
 # CODE_COMPANION_ROLE: EXECUTABLE
 # CODE_COMPANION_PROVENANCE: ARCHIVED_CHAPTER_REVIEW_COPY
 # CODE_COMPANION_RELEASE: CANDIDATE_NOT_FROZEN
-"""Chapter 10.6 educational orchestration; depends on unchanged C3 modules."""
+"""Archived C3 measurement/calibration orchestration example.
+
+Related to composition patterns, but not a verbatim implementation of
+Word Chapter 10 section 10.6 (good design versus over-abstraction).
+Depends on the unchanged C3 calibration and validation modules.
+"""
 from __future__ import annotations
 from dataclasses import dataclass
 from collections.abc import Mapping
