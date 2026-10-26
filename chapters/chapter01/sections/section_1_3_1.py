@@ -15,7 +15,7 @@ print(array * 2)
 
 
 # --- Current section: 1.3.1 ---
-# manuscript paragraph 97
+# manuscript paragraph 99 (v37 G4 QA; zero-based)
 temperatures = np.array([20.5, 21.0, 20.8, 21.3, 20.9])
 print(temperatures[0], temperatures[-1])
 measurements = np.array([[1.2, 3.4, 2.1], [1.5, 3.1, 2.4], [1.3, 3.6, 2.2]])
