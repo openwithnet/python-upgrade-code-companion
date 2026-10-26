@@ -15,7 +15,7 @@ print(array * 2)
 
 
 # --- Current section: 1.4.1 ---
-# manuscript paragraph 144
+# manuscript paragraph 146 (v37 G4 QA; zero-based)
 concentrations = np.array([1.2, 1.5, 1.3, 1.8, 1.6])
 print(concentrations * 2.0)
 a = np.array([1, 2, 3]); b = np.array([4, 5, 6])
