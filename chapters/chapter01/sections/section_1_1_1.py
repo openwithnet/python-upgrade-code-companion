@@ -8,15 +8,15 @@
 # Dependencies retained from original manuscript (minimal verified subset).
 
 # --- Current section: 1.1.1 ---
-# manuscript paragraph 10
+# manuscript paragraph 12 (v37 G4 QA; zero-based)
 temperature = 25.3
 print(temperature)
 
-# manuscript paragraph 15
+# manuscript paragraph 17 (v37 G4 QA; zero-based)
 temperatures = [25.3, 25.5, 25.2, 25.6, 25.4]
 print(sum(temperatures) / len(temperatures))
 
-# manuscript paragraph 19
+# manuscript paragraph 21 (v37 G4 QA; zero-based)
 measurements = [
     [1.2, 3.4, 2.1, 4.0],
     [1.5, 3.1, 2.4, 4.2],
