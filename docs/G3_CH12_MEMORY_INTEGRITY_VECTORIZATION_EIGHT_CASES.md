@@ -11,7 +11,7 @@ Eight reconstructed Word examples ran in the working Python environment. Seven e
 | NumPy `out=` | 6695,6697,6699,6701 | `[2. 4. 6.]`, matched p6703 |
 | Shared vs copied memory | 6713,6715,6717,6719,6720 | `True`, `False`, matched p6722–6723 |
 | Read-only assignment | 6683,6685,6687 | Expected ValueError observed, as Word p6688 describes |
-| Invariant test definitions | 6736–6754 (selected code paragraphs) | Both functions defined successfully. **Do not count as tests executed**: the Word snippet defines two test functions but does not invoke them; independent assertions inside functions were not evaluated by this run |
+| Invariant test definitions | 6736–6754 (selected code paragraphs) | Both functions were subsequently called explicitly in a separate check; **both internal assertion sets passed**. The Word snippet itself only defines them, so the reviewer added calls for verification |
 | Loop calculation | 6795–6802 (code spans) | `[3.0, 5.0, 7.0, 9.0]`, matches p6804 |
 | NumPy vectorized calculation | 6806–6812 (code spans) | `[3. 5. 7. 9.]`, matches p6814 |
 
@@ -20,3 +20,5 @@ Note: 8/8 means script behavior matched its chosen verification criterion; the t
 QA CSV: `G3_Ch12_12_5_3_12_6_1_Eight_Cases_20261026.csv`.
 
 No Word or Python source changed. G3/G4/G5/G6 remain HOLD.
+
+Follow-up: Executed `test_view_shares_memory()` and `test_copy_is_independent()` after extracting their exact Word bodies (paragraphs 6736–6754). Both finished without assertion failure and printed a reviewer-added confirmation. The added calls are test harness steps, not originally printed Word output.
