@@ -1,0 +1,7 @@
+# Chapter 10 G3 — C3 pipeline metadata correction and retest
+
+2026-10-26. Corrected the module docstring of `ch10_pipeline.py` to identify it as an archived C3 calibration orchestration example, **not** the direct implementation of Word §10.6. No calculation logic or tests changed. Source commit `86b89940d0486ffe84f9a4f8d155d4a60e30748a`.
+
+Fetched the revised GitHub blob SHA `6e73684d136f30ca62a6106f89cb724fedfdbd54`. Updated the isolated eight-file validation copy and compared its `git hash-object` against that SHA: **MATCH**. Ran `python -m pytest -q test_kinetics.py test_ch10_composition_example.py test_ch10_pipeline.py`: **31 passed, 0 failed** (Python 3.13 runtime). This is local testing of exact source contents; full GitHub Actions status after this commit is a separate check.
+
+The 59-unit Word/source trace has no newly discovered standalone programs in earlier broad scans, but those heuristic results cannot certify absolute completeness or every Word/source literal equivalence. Conclusion: **metadata defect fixed; Chapter 10 scoped code QA supports a conditional G3 acceptance recommendation, not a final unqualified G3 PASS.** G4 Word layout/equations, G5 provenance/rights and G6 release are separate HOLD gates. No Word manuscript edited.
