@@ -23,3 +23,13 @@ def test_solver_injection():
     sim = Simulation(model, solver, .5)
     assert sim.advance(1.) == 7.5
     assert solver.calls == [(1., model, .5)]
+
+
+def test_euler_constant_derivative_isolated():
+    """Word §10.4.4: verify Euler independently of first-order kinetics."""
+    class ConstantDerivative:
+        def derivative(self, concentration: float) -> float:
+            return -0.5
+
+    result = EulerStep().step(2.0, ConstantDerivative(), 1.0)
+    assert result == pytest.approx(1.5)
