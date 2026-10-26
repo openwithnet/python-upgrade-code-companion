@@ -8,7 +8,7 @@
 # Dependencies retained from original manuscript (minimal verified subset).
 
 # --- Current section: 1.5.1 ---
-# manuscript paragraph 187
+# manuscript paragraph 189 (v37 G4 QA; zero-based)
 import numpy as np
 expression = np.array([[10,20,30,40],[12,18,33,39],[15,22,29,45]], dtype=np.float64)
 sample_names = ["Sample 1", "Sample 2", "Sample 3"]
