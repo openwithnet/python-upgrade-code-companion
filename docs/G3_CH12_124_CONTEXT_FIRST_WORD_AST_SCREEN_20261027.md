@@ -1,0 +1,9 @@
+# Chapter 12 G3: first static screen of all 124 proposed Word code contexts (2026-10-27)
+
+Source: authoritative unchanged Word v37 OOXML and prior 249→124 consolidated context inventory. Workfile: `G3_CH12_124_Context_Source_Continuations_AST_Dependency_Screen_20261027.csv`.
+
+A conservative heuristic appended immediately following Word lines of multiline arrays, continued expressions, and colon-introduced indented code, using selected Word paragraph indices as anchors. This selected 393 additional line positions over 80 contexts. **79/124 extracted context candidates parse under Python AST; 45/124 require exact block-boundary/manual source selection review.** All parse states refer to extracted candidates only, NOT the canonical Word being syntactically wrong and NOT execution PASS. Apparent external-name candidates were found in 62 AST-parsing context candidates; this is only a lexical dependency screen and could include cross-cell variables or ordinary imports. No numerical execution.
+
+Per section AST PASS / total: 12.1 12/13, 12.2 6/14, 12.3 12/16, 12.4 13/16, 12.5 14/21, 12.6 10/15, 12.7 5/10, 12.8 4/9, 12.9 3/10. The 45 REVIEW candidates often combine distinct sequential examples or mix expected stdout and source; no G3 QA PASS is inferred.
+
+Next review those 45 against exact Word syntax / intended code fences, split educational comparison contexts into source-role subblocks, and link previously scoped QA results. Preserve one-to-one mapping of original 249 provisional groups. G3 FULL HOLD / IN PROGRESS; G4-G6 HOLD. Word and production GitHub Python unchanged. Intermediate result; no user saving required.
