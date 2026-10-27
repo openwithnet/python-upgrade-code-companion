@@ -1,0 +1,7 @@
+# G3 Chapter 12 — five historical §12.2 QA scripts match literal Word AST
+
+Date: 2026-10-27. The original QA file `G3_CH12_12_2_Targeted_5_Cases_20261026.csv` contains five recorded PASS scripts. Extracted original Word v37 OOXML source statements using the QA file's explicit paragraph indices. `ast.parse` succeeds on all Word and QA source texts, and normalized AST (excluding imports only) matches for **all five**: negative_axis, row_centering, multi_axis_mean, std_ddof, nan_mean. No numerical executions repeated.
+
+This creates six source-index crosswalk rows mapping five cases to six of the 124 instructional contexts: S122-CTX03,04,05,06,07,08. The row_centering case overlaps both CTX04 and CTX05. It does not prove that any complete instructional context was run end-to-end. Preserve `whole_context_literal_execution_certified=false` for all six rows.
+
+Evidence CSVs generated locally: `G3_CH12_S122_Five_Recorded_QA_Code_Literal_Word_AST_20261027.csv` (five code comparisons with SHA256) and `G3_CH12_S122_Five_Exact_Word_QA_Cases_To_124_Contexts_20261027.csv` (six mapping rows). Previous 66 paragraph-only tier contexts now include six with stronger **scoped exact-code evidence**; do not claim six complete-program PASS. G3 FULL HOLD, G4–G6 HOLD; production Word and GitHub code unchanged. Intermediate audit; user need not save.
