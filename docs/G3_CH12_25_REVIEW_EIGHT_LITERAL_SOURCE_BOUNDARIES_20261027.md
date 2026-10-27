@@ -1,0 +1,7 @@
+# Chapter 12 G3 — Eight additional literal Word AST-review contexts resolved (2026-10-27)
+
+Baseline: authoritative Word v37 unmodified. Previous unresolved list: 25 of 45 initial review contexts. This pass recovered **8 source selections** with original multiline source statements and terminal parentheses, and **8/8 parse under Python AST**. All Word paragraph identifiers and per-selection SHA256 appear in `G3_CH12_25_Review_Eight_Explicit_Word_Source_Boundaries_AST_20261027.csv`, created directly from Word OOXML.
+
+Resolved: S122-10 temperature axis reductions; S123-07 shared-rate concentration matrix; S123-08 experiment-specific rates; S125-07 normalize_inplace versus normalized; S125-09 C/F array order; S125-17 copy-preserving versus in-place scaling functions; S127-01 dtype comparison; S129-04 loop/vectorized motion equality check.
+
+All statements were selected from unchanged Word paragraphs; narrative and anticipated stdout excluded. Several source contexts require imported NumPy or upstream helper definitions to execute. **No numerical execution or output verification performed**, and no full independent-program PASS assigned. Status of 45 originally reviewed: 28 source-boundary AST reviews closed, 17 still unresolved; the baseline 79 heuristically AST-PASS candidates require separate provenance confirmation. Keep whole-Chapter G3 FULL HOLD, G4-G6 HOLD. Intermediate audit only; no user archiving required.
