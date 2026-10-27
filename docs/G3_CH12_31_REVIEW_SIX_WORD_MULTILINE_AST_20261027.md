@@ -1,0 +1,7 @@
+# Chapter 12 G3 — Six Word multiline AST review contexts cleared
+
+2026-10-27. Source is unchanged Word v37, direct document.xml paragraph text. Six originally AST-review contexts reconstructed from original source-only paragraph selections: S124-03 (validity mask), S124-15 (moveaxis/swapaxes), S125-12 (transpose strides), S125-13 (negative strides), S126-13 (np.where log branch), S127-10 (assert_allclose tolerances). **All six AST PASS** over **57 selected Word code paragraphs**; full source text, paragraph lists, source SHA256 and execution gate recorded in `G3_CH12_31_Review_Six_Multiline_Word_Source_AST_20261027.csv`.
+
+The 57 code paragraph positions exclude expected output and explanatory prose. This is source boundary and static syntax verification; **not numerical execution**, output QA, or stand-alone program certification. `np.where` intentionally illustrates eager branch evaluation that can warn on `np.log` of a negative input. No source content modified. Earlier 45 AST review cases: 6 and 8 previously closed, six more now closed = **20 resolved, 25 remain for source-boundary review**. The original 79 heuristic AST-pass contexts are separate preliminary scope and are not 79 fully validated scripts.
+
+Next inspect remaining 25 Word source contexts for extraction-boundary/comparison-context fragmentation, and preserve historical per-example QA. Chapter 12 G3 FULL HOLD / IN PROGRESS; G4-G6 HOLD. Intermediate internal record; user need not archive.
