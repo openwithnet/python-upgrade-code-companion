@@ -1,0 +1,7 @@
+# Chapter 12 G3: last seven Word source candidates AST reviewed
+
+Word v37 was read without modification. Seven remaining context source selections all parsed under Python AST: S128-01, S128-05, S128-06, S129-01, S129-03, S129-05, S129-10. Original source indices, source text and SHA256 are in local intermediate `G3_CH12_Final_Seven_Exact_Word_Source_AST_20261027.csv`. There were no new numerical executions. The previous 45 AST-review contexts have all been resolved to at least one AST-valid source selection; the other 79 contexts had an earlier heuristic AST-valid selection. This does not establish 124 independently runnable or fully validated programs.
+
+Important exception: Word p7660 is a separate supplemental §12.8 code example whose source appears concatenated into a single paragraph (`import numpy as npexpression_small ...`). It was excluded from the AST-positive selection and requires an explicit source-integrity decision; do not silently normalize or claim a literal PASS for it. Some of the original 28 omitted continuation fragments may need further provenance crosswalk.
+
+G3 FULL HOLD; G4–G6 HOLD. Original Word and executable GitHub code unchanged; intermediate evidence only.
