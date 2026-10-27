@@ -1,0 +1,9 @@
+# Chapter 12 G3 — direct AST correspondence for §12.4–§12.5 historical scripts
+
+2026-10-27. Authoritative Word v37 inspected read-only. Two existing historic QA CSVs include Python source: 14 AdvancedIndex/ViewCopy cases and 12 separately recorded Word block executions. All 26 recorded scripts were reconstructed **from their exact listed Word paragraph indices**, without changing Word text, and all **26/26 match the archived QA Python source AST after excluding import statements only**. Original historical QA results show successful execution for all 26; expected-output agreement is case-dependent and should not be inferred when no printed output was part of the QA case. **No numerical tests were rerun.**
+
+The 26 cases map by source paragraph overlap to **19 educational contexts** within the 124-context master. They are 26 case-level verified scripts, not 19 independently executed full contexts. Source code, exact paragraph indices, AST verdicts and SHA256: `G3_CH12_S124_S125_26_Historical_QA_Literal_Word_AST_20261027.csv`; 26 context links: `G3_CH12_S124_S125_26_Exact_Word_QA_Cases_To_124_Contexts_20261027.csv`.
+
+For §12.3, local semantic/broadcast QA records contain pass, numeric outputs/exceptions and Word source positions, but no complete archived Python execution script in the inspected CSVs. Hence those cases establish **scoped behavior**, not exact AST identity with the original Word code. Avoid promoting their evidence tier.
+
+Overall Chapter 12 G3 FULL HOLD / IN PROGRESS, G4–G6 HOLD; Word and GitHub executable reference modules unchanged. Intermediate audit; user need not save.
